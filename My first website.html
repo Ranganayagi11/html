@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first Website</title>
+  </head>
+  <body>
+    <h1>This is my first Website</h1>
+    <hr />
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Cheatsheet"
+      target="_blank"
+      title="Click this link to learn HTML"
+      >Learn HTML</a
+    >
+    <img
+      src="download.png"
+      height="300"
+      alt="This is a logo of HTML"
+      title="This is a logo of HTML"
+    />
+    <h4>Types of text in html</h4>
+    <p>This is normal text</p>
+    <p>This is <b>bold</b> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <big>big</big> text</p>
+    <p>This is <small>small</small> text</p>
+    <p>This is <sub>subscript</sub> text</p>
+    <p>This is <sup>superscript</sup> text</p>
+    <p>This is <ins>inserted</ins> text</p>
+    <p>This is <del>deleted</del> text</p>
+    <p>This is <mark>marked</mark> text</p>
+    <hr />
+    <h4>Types of lists</h4>
+    <h4>Unordered list</h4>
+    <ul>
+      <li>Keyboard</li>
+      <li>Mouse</li>
+      <li>Monitor</li>
+      <li>CPU</li>
+      <ul>
+        <li>ALU</li>
+        <li>CU</li>
+        <li>Storage unit</li>
+      </ul>
+    </ul>
+    <h4>Ordered lists</h4>
+    <ol type="i">
+      <li>wake up early</li>
+      <li>work out</li>
+      <li>Eat healthy breakfast</li>
+    </ol>
+    <h4>Description lists</h4>
+    <dt>HTML</dt>
+    <dd>This is the structure of the web page</dd>
+    <dt>CSS</dt>
+    <dd>It add style to the webpage</dd>
+    <dt>JavaScript</dt>
+    <dd>It add functionalities to the web page</dd>
+    <hr>
+    <h4>Create tables</h4>
+    <table bgcolor="black" width="700">
+        <tr bgcolor="grey">
+        <th width="100">Sunday</th>
+        <th width="100">Monday</th>
+        <th width="100">Tuesday</th>
+        <th width="100">Wednesday</th>
+        <th width="100">Thursday</th>
+        <th width="100">Friday</th>
+        <th width="100">Saturday</th>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+    <hr>
+        <h4 style="color: rgb(255, 115, 0);">Add Colours</h4>
+        <h5 style="background-color: rebeccapurple;">Add bg colour</h5>
+        <!--span:add markup to a text or a portion -->
+        <div style="background-color: rgb(26, 161, 161);">
+        <p><span style="color: red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span> 
+            Error quasi dicta tenetur! Consectetur architecto autem optio nesciunt eius non, 
+            quibusdam iure placeat ducimus? Tempore adipisci odio impedit quo sapiente vel.</p> 
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                At saepe eaque debitis ad rerum quod tempora ipsum maxime sed. 
+                Adipisci cumque quibusdam dolore beatae optio et? Nobis officiis reprehenderit in.</p>
+            </div>
+            <hr>
+            <h4>iframe</h4>
+            <p>emed another webpage sourse used in ads. But it is also used in hacking 
+                So many webpages have disabled this including Google</p>
+            <hr>
+            <h4>Buttons</h4>
+            <a href="https://www.w3schools.com/Tags/tag_button.asp">
+            <button style="background-color: black; color: #fffefe;">Click me</button>
+        </a>
+        <hr>
+        <h4>Forms</h4>
+        <form action="">
+            <div>
+            <label for="fname">
+                FirstName:
+            </label>
+            <input type="text" id="fname" placeholder="Enter your name" name="fname" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname">
+                LastName:
+            </label>
+            <input type="text" id="lname" placeholder="Enter your initial" name="lname">
+            </div>
+            <br>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass" maxlength="8" placeholder="Enter only 8 characters" required>
+            </div>
+            <br>
+            <div>
+                <label>Mr.</label>
+                <input type="radio" name="title">
+                <label>Mrs.</label>
+                <input type="radio" name="title">
+                <label>Miss.</label>
+                <input type="radio" name="title">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" placeholder="Enter valid mailID">
+            </div>
+            <br>
+            <div>
+                <label for="bdate">BirthDate</label>
+                <input type="date" name="bdate" id="bdate">
+            </div>
+            <br>
+            <div>
+                <label for="quantity">Quantity</label>
+                <input type="number" name="quantity" id="quantity" min="1" max="20" step="2">
+            </div>
+            <br>
+            <div>
+                <input type="reset">
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+
+  </body>
+</html>
